@@ -1,0 +1,330 @@
+    1  ls -lat
+    2  cd .
+    3  ll
+    4  cat .gitconfig
+    5  cat .profile
+    6  cd .aws
+    7  ll
+    8  cd ..
+    9  ll
+   10  clear
+   11  sudo apt install ssh
+   12  ll
+   13  ls -lat
+   14  clear
+   15  ssh
+   16  ll
+   17  exit
+   18  cd ../../../../../
+   19  cd ..
+   20  cd ../../
+   21  ls
+   22  cd home
+   23  ll
+   24  cd kuniium
+   25  ll
+   26  clear
+   27  ubuntu --version
+   28  version
+   29  --version
+   30  lsb_release -a
+   31  sudo apt update
+   32  sudo apt list --upgradable
+   33  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+   34  unzip awscliv2.zip
+   35  sudo ./aws/install
+   36  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+   37  unzip awscliv2.zip
+   38  sudo apt install unzip
+   39  unzip awscliv2.zip
+   40  sudo ./aws/install
+   41  /usr/local/bin/aws --version
+   42  aws --version
+   43  clear
+   44  aws configure
+   45  python3 --version
+   46  python3
+   47  clear
+   48  sudo apt install git
+   49  git config --global user.name kuniium
+   50  git config --global user.email kuniium@gmail.com
+   51  git config --list
+   52  ssh key-gen
+   53  ssh keygen
+   54  ssh-keygen
+   55  ll
+   56  cd .ssh
+   57  ll
+   58  cat known_hosts
+   59  cd 
+   60  cd ibtprojects/
+   61  ll
+   62  git status
+   63  git push ibtprojects file3.txt
+   64  git add file4.txt
+   65  git commit -m "file4.txt commit"
+   66  git push ibtprojects file4.txt
+   67  git push git@github.com:Kuniium/ibtprojects.git file4.txt
+   68  git pull
+   69  git pull origin master
+   70  clear
+   71  git branch -m main
+   72  git push origin main
+   73  git add AA BB CC
+   74  LL
+   75  ll
+   76  git add file3.txt file4.txt file5.txt
+   77  git status
+   78  sudo git add file3.txt file4.txt file5.txt
+   79  git status
+   80  git add file3.txt
+   81  git add file4.txt
+   82  git add file5.txt
+   83  git status
+   84  clear
+   85  cd ..
+   86  git remote add origin git@github.com:Kuniium/gitdemo.git
+   87  git branch -M main
+   88  git push -u origin main
+   89  ll
+   90  git add file1*.*
+   91  git status
+   92  git commit -m "committing all"
+   93  git push --all
+   94  clear
+   95  ll
+   96  git add secondbatch{1..5}.txt
+   97  touch secondset{1..5}.txt
+   98  ll
+   99  git add second*.*
+  100  git commit -m "commit second set of files"
+  101  git push --all
+  102  git status
+  103  git ignore
+  104  git diagnose
+  105  ll
+  106  cd .git/
+  107  ll
+  108  pwd
+  109  cd ..
+  110  ll
+  111  echo "Here's another line for file 11" >> file11.txt
+  112  git add file11.txt
+  113  git commit -m "One line of text added"
+  114  git push origin main
+  115  echo "Here's the second line of text for file 11." >> file11.txt
+  116  git add file11.txt
+  117  git status
+  118  git commit -m "Second line of text added"
+  119  git push origin master
+  120  git push origin main
+  121  git pull main origin
+  122  git pull
+  123  git merge text11.txt/origin
+  124  git pull origin main
+  125  git pull main origin
+  126  git pull --rebase origin main
+  127  git add file11.txt
+  128  git rebase --continue
+  129  git add file12.txt
+  130  git commit -m "file12 commit"
+  131  git status
+  132  git push --all
+  133  clear
+  134  python3 --version
+  135  pip3 install boto3
+  136  print(boto3. __version__)
+  137  pip show boto3
+  138  pip freeze | grep boto3
+  139  clear
+  140  pip3 --version
+  141  pip3 --help
+  142  exit
+  143  ll
+  144  sudo apt update
+  145  clear
+  146  ll
+  147  ssh localhost
+  148  ll
+  149  cd .ssh/
+  150  ll
+  151  cat known_hosts
+  152  cd ..
+  153  ll
+  154  clear
+  155  ll
+  156  pwd
+  157  ls -lat /home/kuniium/.ssh/
+  158  ssh-keygen
+  159  ssh-keygen -t rsa -b 4096 -C kuniium@gmail.com
+  160  cat id_rsa.pub
+  161  cat /home/kuniium/.ssh/id_rsa.pub
+  162  ll
+  163  cd .ssh/
+  164  ll
+  165  clear
+  166  cd ..
+  167  ssh -T git@github.com
+  168  ll
+  169  cd .ssh/
+  170  ll
+  171  cd ..
+  172  ll
+  173  cat .bashrc
+  174  clear
+  175  ssh -T git@github.com
+  176  echo github.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl
+  177  github.com ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEmKSENjQEezOmxkZMy7opKgwFB9nkt5YRrYMjNuG5N87uRgg6CLrbo5wAdT/y6v0mKV0U2w0WZ2YB/++Tpockg=
+  178  github.com ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCj7ndNxQowgcQnjshcLrqPEiiphnt+VTTvDP6mHBL9j1aNUkY4Ue1gvwnGLVlOhGeYrnZaMgRK6+PKCUXaDbC7qtbW8gIkhL7aGCsOr/C56SJMy/BCZfxd1nWzAOxSDPgVsmerOBYfNqltV9/hWCqBywINIR+5dIg6JTJ72pcEpEjcYgXkE2YEFXV1JHnsKgbLWNlhScqb2UmyRkQyytRLtL+38TGxkxCflmO+5Z8CSSNY7GidjMIZ7Q4zMjA2n1nGrlTDkzwDCsw+wqFPGQA179cnfGWOWRVruj16z6XyvxvjJwbz0wQZ75XK5tKSb7FNyeIEs4TT4jk+S4dhPeAUC5y+bDYirYgM4GC7uEnztnZyaVWQ7B381AK4Qdrwt51ZqExKbQpTUNn+EjqoTwvqNj4kqx5QUCI0ThS/YkOxJCXmPUWZbhjpCg56i+2aB6CmK2JGhn57K5mj0MNdBXA4/WnwH6XoPWJzK5Nyu2zB3nAZp+S5hpQs+p1vN1/wsjk= >> ~/.ssh/known_hosts
+  179  cat ~/.ssh/known_hosts
+  180  echo "github.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl
+  181  github.com ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEmKSENjQEezOmxkZMy7opKgwFB9nkt5YRrYMjNuG5N87uRgg6CLrbo5wAdT/y6v0mKV0U2w0WZ2YB/++Tpockg=
+  182  github.com ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCj7ndNxQowgcQnjshcLrqPEiiphnt+VTTvDP6mHBL9j1aNUkY4Ue1gvwnGLVlOhGeYrnZaMgRK6+PKCUXaDbC7qtbW8gIkhL7aGCsOr/C56SJMy/BCZfxd1nWzAOxSDPgVsmerOBYfNqltV9/hWCqBywINIR+5dIg6JTJ72pcEpEjcYgXkE2YEFXV1JHnsKgbLWNlhScqb2UmyRkQyytRLtL+38TGxkxCflmO+5Z8CSSNY7GidjMIZ7Q4zMjA2n1nGrlTDkzwDCsw+wqFPGQA179cnfGWOWRVruj16z6XyvxvjJwbz0wQZ75XK5tKSb7FNyeIEs4TT4jk+S4dhPeAUC5y+bDYirYgM4GC7uEnztnZyaVWQ7B381AK4Qdrwt51ZqExKbQpTUNn+EjqoTwvqNj4kqx5QUCI0ThS/YkOxJCXmPUWZbhjpCg56i+2aB6CmK2JGhn57K5mj0MNdBXA4/WnwH6XoPWJzK5Nyu2zB3nAZp+S5hpQs+p1vN1/wsjk=" >> ~/.ssh/known_hosts
+  183  ssh -T git@github.com
+  184  clear
+  185  git init
+  186  dudo git init
+  187  sudo git init
+  188  ll
+  189  clear
+  190  ll
+  191  cd .git/
+  192  touch test{1..5}
+  193  ll
+  194  git add test1
+  195  cd ..
+  196  git add test1
+  197  git clone git@github.com:Kuniium/ibtprojects.git
+  198  git add test1
+  199  ll
+  200  mv ibtprojects/ .git/
+  201  ll
+  202  cd .git/
+  203  ll
+  204  cd ibtprojects/
+  205  git add test1
+  206  path
+  207  pwd
+  208  rm test*
+  209  sudo rm -rf test*
+  210  ll
+  211  git add demo4
+  212  git commit -m "demo4 commit"
+  213  git status
+  214  git add demo1
+  215  git status
+  216  clear
+  217  ll
+  218  touch test{1..5}.txt
+  219  ll
+  220  git add test.txt
+  221  ll
+  222  rm -rf .git/
+  223  ll
+  224  cd ..
+  225  ll
+  226  cd ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddssssssssssssssssc
+  227  clear
+  228  ll
+  229  cd ibtprojects
+  230  ll
+  231  git add test1.txt
+  232  pwd
+  233  cd ../../
+  234  pwd
+  235  ll
+  236  cd .git/
+  237  ll
+  238  pwd
+  239  cd ..
+  240  ll
+  241  touch file1{1..3}.txt
+  242  ll
+  243  pwd
+  244  mkdir ibtprojects
+  245  cd ibtprogects
+  246  cd ibtprogects/
+  247  ll
+  248  cd ibtprojects/
+  249  pwd
+  250  touch file{3..6}.txt
+  251  ll
+  252  git add file3.txt
+  253  git status
+  254  git commit -m "file3.txt commit"
+  255  git push origin main
+  256  git push origin --all
+  257  clear
+  258  cat /etc/passwd
+  259  su root
+  260  sudo su
+  261  cd..
+  262  cd ..
+  263  exit
+  264  ll
+  265  clear
+  266  pip3 --version
+  267  sudo  apt install python3-pip
+  268  pip3 --version
+  269  clear
+  270  pip3 install boto3
+  271  sudo pip3 install boto3
+  272  apt install python3-boto3
+  273  clear
+  274  pip3 --version
+  275  pip3 install boto3 --break-system-packages
+  276  LL
+  277  ll
+  278  clear
+  279  mkdir boto3-evening && cd boto3-evening
+  280  ll
+  281  nano create_instance.py
+  282  apt install ~/.nanorc
+  283  cat /etc/nanorc
+  284  cd ..
+  285  .nanorc
+  286  include "/usr/share/nano/*.nanorc"
+  287  configure .nanorc
+  288  vi /etc/nanorc
+  289  sudo vi /etc/nanorc
+  290  reboot
+  291  sudo reboot
+  292  ll
+  293  nano boto3-evening
+  294  vi boto3-evening
+  295  ll
+  296  cd ibtprojects
+  297  ll
+  298  clear
+  299  git status
+  300  ll
+  301  cd ..
+  302  cd ibtprojects
+  303  clear
+  304  git init
+  305  ll
+  306  git status
+  307  git add file*.*
+  308  git status
+  309  git rm --cached file6.txt
+  310  git status
+  311  echo "Yo! Git is awesomegit status" >> file3.txt
+  312  cat file3.txt
+  313  git status
+  314  git add file3.txt
+  315  git status
+  316  pwd
+  317  git commit -m "committing 3 files with file3 containig text"
+  318  git status
+  319  git add file6.txt
+  320  git status
+  321  touch jay.py osc.dhl kay.js
+  322  ll
+  323  git status
+  324  git add .
+  325  git status
+  326  git commit -m "committing all files"
+  327  git status
+  328  git log
+  329  git log --oneline
+  330  history >> gitnotes
